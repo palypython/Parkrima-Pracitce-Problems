@@ -15,6 +15,11 @@ string=""
 # for i in something:  
 #   pass
 
+for _ in range(100):
+    print("hello")
+
+# look at the tests to figure
+# out how the program must behave
 def tests(tester):
   l = string.split("\n")
   def get(i):
