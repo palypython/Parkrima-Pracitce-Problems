@@ -12,11 +12,9 @@ string=""
 # the code will use a for loop like the one
 # below: vvvvv
 
-# for i in something:  
-#   pass
-
-for _ in range(100):
-    print("hello")
+for i in range(99):
+  string += "hello\n"
+string += "hello"
 
 # look at the tests to figure
 # out how the program must behave

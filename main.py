@@ -20,7 +20,7 @@ def has_test(file):
         return False
 
 
-problems = list(filter(has_test, problems))
+problems = sorted(list(filter(has_test, problems)))
 questions = [
     inquirer.List("problem", message="Choose a problem", choices=problems),
 ]
